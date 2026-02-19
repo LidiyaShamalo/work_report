@@ -3,6 +3,8 @@ defmodule WorkReport do
   # Analyze report file and gather work statistics
   """
 
+  alias Model.Month, as: M
+
   @name "Work Report"
   @version "1.0.0"
 
@@ -47,3 +49,7 @@ defmodule WorkReport do
   end
 
 end
+
+
+# "./test/sample/report-1.md"
+# WorkReport.sort_list("./test/sample/report-1.md")
